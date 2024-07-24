@@ -1,0 +1,194 @@
+@import url('https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    font-family: "Lato", sans-serif;
+}
+body{
+    background-color: whitesmoke;
+}
+header{
+    background-color: rgb(241, 237, 237);
+    width: 100%;
+}
+.logo h1{
+    margin-top: 20px;
+    font-size: 40px;
+    transition: all 0.5s ease;
+    color: rgb(68, 133, 231);
+    font-style: italic;
+}
+.logo h1:hover{
+    color: skyblue;
+}
+.nav-bar{
+    width: 1170px;
+    margin: auto;
+    display: flex;
+    justify-content: space-between;
+    position: relative;
+}
+nav>ul{
+    display: flex;
+}
+nav>ul>li{
+    list-style: none;
+    padding: 30px;
+}
+nav>ul>li>a{
+    text-decoration: none;
+    font-size: 20px;
+    color: rgb(10, 9, 9);
+    font-weight: 500;
+    transition: all 0.5s ease ;
+}
+nav>ul>li>a:hover{
+    color: rgb(29, 8, 212);
+}
+.mega-menu{
+    position: absolute;
+    width: 60%;
+    height: 400px;
+    top: 100%;
+    left: 50%;
+    opacity: 0px;
+    box-shadow: 0px 10px 2px 3px lightblue;
+    transition: 2s;
+    visibility: hidden;
+    background-color: white;
+}
+nav>ul>li:hover .mega-menu{
+    /* top: 100%; */
+    opacity: 1;
+    visibility: visible;
+}
+.mega-menu .mega-menu-items{
+    margin-top: 20px;
+    margin-left: 20px;
+}
+.mega-menu h3{
+    margin-left: 10px;
+    margin-top: 10px;
+}
+.mega-menu h3 a{
+    text-decoration: none;
+    color: black;
+    font-weight: bolder;
+    /* transition: all 0.5s ease; */
+   
+}
+.mega-menu h3 a:hover{
+    color: skyblue;
+}
+.mega-menu p{
+    margin-top: 20px;
+    margin-left: 10px;
+    font-weight: 500;
+ 
+}
+.mega-menu-items img{
+    border-radius: 10px;
+}
+
+
+
+.mega-menu1{
+    position: absolute;
+    width: 55%;
+    height: 300px;
+    top: 100%;
+    left: 50%;
+    opacity: 0px;
+    box-shadow: 0px 10px 2px 3px lightblue;
+    transition: 2s;
+    visibility: hidden;
+    background-color: white;
+    
+}
+nav>ul>li:hover .mega-menu1{
+    /* top: 100%; */
+    opacity: 1;
+    visibility: visible;
+}
+.mega-menu .mega-menu1-items{
+    margin-top: 20px;
+    margin-left: 20px;
+}
+.mega-menu1{
+    display: flex;
+    
+}
+
+.mega-menu1 p{
+    margin-top: 20px;
+    margin-left: 10px;
+    font-weight: 500;
+ 
+}
+.menu-items1 {
+    display: flex;
+}
+.mega-menu-items1 img{
+    border-radius: 10px;
+}
+
+
+/* .travel-name {
+    display: flex;
+   
+} */
+/* .travel-content{
+    display: flex; 
+    
+  
+
+} */
+ .drop-down{
+    display: flex
+ }
+.travel-name{
+    margin-top: 20px;
+    margin-left: 20px;
+    
+}
+.travel-name h2{
+    /* margin-left: 20px; */
+    font-weight: bolder;
+    font-style: oblique;
+    font-size: 25px;
+    margin-bottom: 20px;
+    /* text-align: center; */
+   /* border-bottom: 1px solid gray; */
+}
+.travel-content ul li {
+    list-style: none;
+    margin-top: 10px;
+    /* text-align: center; */
+}
+.travel-content ul li a{
+    text-decoration: none;
+    color: black;
+    font-size: 18px;
+    font-weight: 400;
+    
+}
+.travel-content ul li a:hover{
+    color: skyblue;
+}
+.countries h4{
+    /* border-bottom: 2px solid rgb(25, 122, 146); */
+    font-size: 18px;
+    /* text-align: center; */
+    margin-left: 20px;
+}
+
+/* .cities{
+    margin-left: 50px;
+}
+.cities h4{
+    font-size: 19px;
+    /* border-bottom: 2px solid rgb(25, 122, 146); 
+    text-align: center;
+} */
+
+
