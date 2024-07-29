@@ -475,12 +475,25 @@
             <form action="">
               <input type="text" name="name" id="name" placeholder="Your Name" style="border-bottom: 2px solid black; border-radius: 20px;" required> <br>
               <input type="email" name="email" id="email" placeholder="Your Email" style="border-bottom: 2px solid black; border-radius: 20px;" required> <br>
-              <input type="submit" id="submit-btn" value="Subscribe" onclick="login()">
+              <input type="submit" id="submit-btn" value="Subscribe" onclick="subscribe()">
             </form>
-            
+
+            <script>
+                function subscribe(){
+                    var name=document.getElementById('name').value;
+                    var email=document.getElementById('email').value;
+                    if(name && email){
+                        alert('Thank you for your subscribe')
+                    }
+                    else{
+                        alert('please enter valid name and email')
+                    
+                    }
+                }
+            </script>
+           
           </div>
 
-    </div>
 
 
 
